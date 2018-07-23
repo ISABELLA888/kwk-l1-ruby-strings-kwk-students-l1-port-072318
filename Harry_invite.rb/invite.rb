@@ -1,1 +1,2 @@
-puts "Dear "
+puts "Dear #{guest}" 
+guest = gets.strip. 
