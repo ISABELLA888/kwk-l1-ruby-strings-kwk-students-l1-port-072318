@@ -1,6 +1,14 @@
 guest = gets.strip 
-name = the_party
-date = july 23
-time = neveroclock
+name = gets.strip
+month = gets.strip
+day = gets.strip.to_i
+time = gets.strip
+date2 = gets.strip
+month2 = gets.strip
+hname = gets.strip
 puts "Dear #{guest}"
-puts "You are cordially invited to #{name} on #{date} at #{time} "  
+puts "You are cordially invited to #{name} on #{month} + #{day} at #{time}. Please rsvp no later than #{month2} + #{day2}. "  
+
+puts "Sincerely,"
+
+puts "#{hname}"
