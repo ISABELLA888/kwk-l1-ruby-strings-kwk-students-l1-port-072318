@@ -1,6 +1,6 @@
 guest = gets.strip 
 puts "Dear #{guest}" 
-name = the party
+name = the_party
 date = july 23
 time = neveroclock
 
